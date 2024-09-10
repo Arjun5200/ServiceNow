@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by display_value="x_981900_fetch.fetchdog" name="x_981900_fetch.fetchdog">9decd4c4831c125007feb9f6feaad333</assignable_by>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_981900_fetch.FetchDogsACL</name>
+        <requires_subscription>0</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>FetchDogsACL</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-23 13:23:05</sys_created_on>
+        <sys_id>71b1644c831c125007feb9f6feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_981900_fetch.FetchDogsACL</sys_name>
+        <sys_package display_value="Fetch" source="x_981900_fetch">b5cc100883d8125007feb9f6feaad343</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">b5cc100883d8125007feb9f6feaad343</sys_scope>
+        <sys_update_name>sys_user_role_71b1644c831c125007feb9f6feaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-23 13:23:05</sys_updated_on>
+    </sys_user_role>
+</record_update>
