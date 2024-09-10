@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8f00a0c8831c125007feb9f6feaad3bd" label="Dogs" max_length="40" name="x_981900_fetch_dogs" type="collection">
+        <element label="Adoption Center" max_length="32" name="adoption_center" reference="x_981900_fetch_adoption_center" type="reference"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Bio" max_length="4000" name="bio" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Breed" max_length="40" name="breed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="German Shepherd" value="german_she"/>
+                <element inactive_on_update="false" label="Labrador" value="labrodore"/>
+                <element inactive_on_update="false" label="Mixed" value="mixed"/>
+            </choice>
+        </element>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Neutered" max_length="40" name="neutered" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Picture" max_length="65536" name="picture" type="html"/>
+        <element label="Shorts" max_length="40" name="shorts" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Adopted" value="adopted"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="adoption_center"/>
+        </index>
+    </element>
+</database>
